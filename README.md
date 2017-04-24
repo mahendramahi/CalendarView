@@ -1,6 +1,6 @@
 # CalendarView
 
-Hello Guys. Here a simple and custom calendar view. 
+Hello Guys. Here are a simple and custom calendar view. 
 
 
 # In build.gradle
