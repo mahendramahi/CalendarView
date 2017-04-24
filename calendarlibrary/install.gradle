@@ -1,0 +1,39 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.github.mahendramahi' // CREATE A GROUP ID FOR YOUR LIBRARY
+
+install {
+    repositories.mavenInstaller {
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.github.mahendramahi' // CREATE A GROUP ID FOR YOUR LIBRARY
+                artifactId 'CalendarView' // THE NAME OF YOUR MODULE
+
+                name 'CalendarView' // YOUR LIBRARY NAME
+                description 'Custom CalendarView.' // YOUR LIBRARY DESCRIPTION
+                url 'https://github.com/mahendramahi/CalendarView' // YOUR SITE
+
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'mahendrasharma' //YOUR ID
+                        name 'Mahendra Sharma' //YOUR NAME
+                        email 'mahendrasharma.sharma369@gmail.com' //YOUR EMAIL
+                    }
+                }
+                scm {
+                    connection 'https://github.com/mahendramahi/CalendarView.git' // YOUR GIT REPO
+                    developerConnection 'https://github.com/mahendramahi/CalendarView.git' // YOUR GIT REPO
+                    url 'https://github.com/mahendramahi/CalendarView' // YOUR SITE
+
+                }
+            }
+        }
+    }
+}
