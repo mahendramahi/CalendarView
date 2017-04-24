@@ -2,6 +2,16 @@
 
 Hello Guys. Here are a simple and custom calendar view. 
 
+Include `jitpack.io` inside of **root** project `build.gradle`:
+
+```groovy
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+```
 
 # In build.gradle
 ``` java
