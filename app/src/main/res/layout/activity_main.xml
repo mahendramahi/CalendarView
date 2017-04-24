@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/splash"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <io.mahendra.calendarview.widget.CalendarView
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:calendarBackgroundColor="@android:color/transparent"
+            app:calendarTitleTextColor="@color/white_color"
+            app:currentDayOfMonthColor="@color/white_color"
+            app:dayOfWeekTextColor="@android:color/white"
+            app:disabledDayBackgroundColor="@android:color/transparent"
+            app:disabledDayTextColor="@color/disabletextcolor"
+            app:selectedDayBackgroundColor="@color/colorAccent"
+            app:titleLayoutBackgroundColor="@android:color/transparent"
+            app:weekLayoutBackgroundColor="@android:color/transparent"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"/>
+
+
+</RelativeLayout>

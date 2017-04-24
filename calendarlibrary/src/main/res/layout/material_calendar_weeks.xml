@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/weekTitlePaddingTop"
+    android:paddingTop="@dimen/weekTitlePaddingBottom"
+    android:weightSum="7">
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek1"
+        tools:text="Sun." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek2"
+        tools:text="Mon." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek3"
+        tools:text="Tue." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek4"
+        tools:text="Wed." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek5"
+        tools:text="Thu." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek6"
+        tools:text="Fri." />
+
+    <TextView style="@style/CalendarView.DayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek7"
+        tools:text="Sat." />
+
+</LinearLayout>
